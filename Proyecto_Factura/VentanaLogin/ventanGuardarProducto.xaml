@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="ventanGuardarProducto" Height="747" Width="445">
     <Grid>
-        <Label Content="Nombre Vendedor" Height="28" HorizontalAlignment="Left" Margin="59,40,0,0" Name="label1" VerticalAlignment="Top" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="174,40,0,0" Name="txbNombreVendedor" VerticalAlignment="Top" Width="120" IsEnabled="False" />
+        <Label Content="Nombre Vendedor" Height="28" HorizontalAlignment="Left" Margin="23,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,12,0,0" Name="txbNombreVendedor" VerticalAlignment="Top" Width="89" IsEnabled="False" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="174,94,0,0" Name="txbNombreCliente" VerticalAlignment="Top" Width="120" />
         <Label Content="Cliente" Height="28" HorizontalAlignment="Left" Margin="94,89,0,0" Name="label2" VerticalAlignment="Top" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="159,223,0,0" Name="txbNumFijo" VerticalAlignment="Top" Width="120" />
@@ -31,5 +31,7 @@
         <Button Content="Guardar" Height="23" HorizontalAlignment="Left" Margin="174,658,0,0" Name="btnGuardar" VerticalAlignment="Top" Width="97" Click="btnGuardar_Click" />
         <Button Content="Eliminar" Height="23" HorizontalAlignment="Left" Margin="48,658,0,0" Name="btnEliminar" VerticalAlignment="Top" Width="93" />
         <Button Content="Vizualisar" Height="23" HorizontalAlignment="Right" Margin="0,658,37,0" Name="btnVizualisar" VerticalAlignment="Top" Width="87" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="309,12,0,0" Name="txbNumeroFactura" VerticalAlignment="Top" Width="77" />
+        <Label Content="N°.Fac" Height="28" HorizontalAlignment="Left" Margin="256,12,0,0" Name="label13" VerticalAlignment="Top" />
     </Grid>
 </Window>

@@ -263,6 +263,22 @@ namespace VentanaLogin {
         #line default
         #line hidden
         
+        
+        #line 34 "..\..\..\ventanGuardarProducto.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox txbNumeroFactura;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 35 "..\..\..\ventanGuardarProducto.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label label13;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -382,6 +398,12 @@ namespace VentanaLogin {
             return;
             case 28:
             this.btnVizualisar = ((System.Windows.Controls.Button)(target));
+            return;
+            case 29:
+            this.txbNumeroFactura = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 30:
+            this.label13 = ((System.Windows.Controls.Label)(target));
             return;
             }
             this._contentLoaded = true;
