@@ -7,6 +7,21 @@ namespace Modelo
 {
     public class Factura: ICalculable
     {
+        //public Factura() { }
+
+        //public Factura(int intPrmCantidad, int intSgdCantidad, int intTerceraCantidad, Producto prmPrimerProducto, Producto sgnSegundoProducto, Producto trcTercerProducto,
+        //                DateTime fscFecha, Persona parPersona, int intNumeroFactura)
+        //{
+        //    primeraCantidad = intPrmCantidad;
+        //    segundaCantidad = intSgdCantidad;
+        //    terceraCantidad = intTerceraCantidad;
+        //    primerProducto = prmPrimerProducto;
+        //    segundoProducto = sgnSegundoProducto;
+        //    tercerProducto = trcTercerProducto;
+        //    Fecha = fscFecha;
+        //    Persona = parPersona;
+        //    numFactura = intNumeroFactura;
+        //}
         /// <summary>
         /// primeraCantidad,segundaCantidad,terceraCantidad: cantdad que querra el usurio de un 
         /// mismo producto

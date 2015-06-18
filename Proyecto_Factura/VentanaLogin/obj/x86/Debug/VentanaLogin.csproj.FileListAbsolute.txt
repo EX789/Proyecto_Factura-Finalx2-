@@ -16,3 +16,21 @@ C:\Users\Ivan\documents\visual studio 2010\Projects\Proyecto_Factura\VentanaLogi
 C:\Users\Ivan\documents\visual studio 2010\Projects\Proyecto_Factura\VentanaLogin\obj\x86\Debug\VentanaLogin.pdb
 C:\Users\Ivan\documents\visual studio 2010\Projects\Proyecto_Factura\VentanaLogin\bin\Debug\Controlador.dll
 C:\Users\Ivan\documents\visual studio 2010\Projects\Proyecto_Factura\VentanaLogin\bin\Debug\Controlador.pdb
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\VentanaLogin.exe
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\VentanaLogin.pdb
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\bin\Debug\VentanaLogin.exe
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\bin\Debug\VentanaLogin.pdb
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\bin\Debug\Controlador.dll
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\bin\Debug\Modelo.dll
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\bin\Debug\Controlador.pdb
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\bin\Debug\Modelo.pdb
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\VentanaLogin.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\MainWindow.baml
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\ventanGuardarProducto.baml
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\ventanGuardarProducto.g.cs
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\App.g.cs
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\VentanaLogin_MarkupCompile.cache
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\VentanaLogin.g.resources
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\VentanaLogin.Properties.Resources.resources
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\VentanaLogin.csproj.GenerateResource.Cache

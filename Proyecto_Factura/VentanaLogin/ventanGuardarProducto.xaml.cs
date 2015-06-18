@@ -21,9 +21,8 @@ namespace VentanaLogin
     public partial class ventanGuardarProducto : Window
     {
         RegistroFactura reg = new RegistroFactura();
-        Factura fc;
         
-        public ventanGuardarProducto(object nuevoobjeto)
+        public ventanGuardarProducto(object nuevoobjeto) 
         {
             InitializeComponent();
             if (nuevoobjeto is Vendedor)
@@ -41,8 +40,15 @@ namespace VentanaLogin
         {
             try
             {
-                fc = new Factura();
-                //fc.Persona.Nombre = txbNombreCliente.Text;
+                Factura fc = new Factura();
+                //fc.Persona.Nombre = null;
+                //if (fc is Factura)
+                //{
+                //    Persona per = (Persona)fc.Persona;
+                //    per.Nombre = txbNombreCliente.Text;
+                //}
+                if (fc.Persona is Cliente)
+                {
                     Cliente cl = (Cliente)fc.Persona;
                     cl.Nombre = txbNombreCliente.Text;
                     cl.Rut = txbRut.Text;
@@ -50,6 +56,7 @@ namespace VentanaLogin
                     cl.Movil = int.Parse(txbNumMovil.Text);
                     cl.Direccion = txbDireccion.Text;
                     cl.comuna = (Comuna)cbComuna.SelectedItem;
+                }
                 fc.primerProducto = (Producto)cbProductoUno.SelectedItem;
                 fc.segundoProducto = (Producto)cbProductoDos.SelectedItem;
                 fc.tercerProducto = (Producto)cbProductoTres.SelectedItem;

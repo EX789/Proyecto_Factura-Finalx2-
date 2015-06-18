@@ -5,3 +5,10 @@ C:\Users\Ivan\documents\visual studio 2010\Projects\Proyecto_Factura\Controlador
 C:\Users\Ivan\documents\visual studio 2010\Projects\Proyecto_Factura\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
 C:\Users\Ivan\documents\visual studio 2010\Projects\Proyecto_Factura\Controlador\obj\Debug\Controlador.dll
 C:\Users\Ivan\documents\visual studio 2010\Projects\Proyecto_Factura\Controlador\obj\Debug\Controlador.pdb
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\Controlador\bin\Debug\Controlador.dll
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\Controlador\bin\Debug\Controlador.pdb
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\Controlador\bin\Debug\Modelo.dll
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\Controlador\bin\Debug\Modelo.pdb
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\Controlador\obj\Debug\Controlador.dll
+C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\Controlador\obj\Debug\Controlador.pdb

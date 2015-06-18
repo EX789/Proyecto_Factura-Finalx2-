@@ -34,7 +34,7 @@ namespace VentanaLogin
             {
                 if (txbNombre.Text == item.Nombre && pwbClave.Password == item.Codigo)
                 {
-                    ventanGuardarProducto nuevaVentana = new ventanGuardarProducto(item);
+                    ventanGuardarProducto nuevaVentana = new ventanGuardarProducto(item);//
                     nuevaVentana.Show();
                     this.Close();
                     break;
