@@ -1,0 +1,35 @@
+﻿<Window x:Class="VentanaLogin.ventanGuardarProducto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ventanGuardarProducto" Height="747" Width="445">
+    <Grid>
+        <Label Content="Nombre Vendedor" Height="28" HorizontalAlignment="Left" Margin="59,40,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="174,40,0,0" Name="txbNombreVendedor" VerticalAlignment="Top" Width="120" IsEnabled="False" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="174,94,0,0" Name="txbNombreCliente" VerticalAlignment="Top" Width="120" />
+        <Label Content="Cliente" Height="28" HorizontalAlignment="Left" Margin="94,89,0,0" Name="label2" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="159,223,0,0" Name="txbNumFijo" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="159,267,0,0" Name="txbNumMovil" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="174,137,0,0" Name="txbRut" VerticalAlignment="Top" Width="120" />
+        <Label Content="Rut" Height="28" HorizontalAlignment="Left" Margin="104,132,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="Telefono de contacto:" Height="28" HorizontalAlignment="Left" Margin="43,184,0,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="Fijo" Height="28" HorizontalAlignment="Left" Margin="94,223,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="Movíl" Height="28" HorizontalAlignment="Left" Margin="93,267,0,0" Name="label6" VerticalAlignment="Top" />
+        <Label Content="Direccion" Height="28" HorizontalAlignment="Left" Margin="59,330,0,0" Name="label7" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="159,330,0,0" Name="txbDireccion" VerticalAlignment="Top" Width="148" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="159,396,0,0" Name="cbComuna" VerticalAlignment="Top" Width="120" />
+        <Label Content="Comuna" Height="28" HorizontalAlignment="Left" Margin="59,396,0,0" Name="label8" VerticalAlignment="Top" />
+        <Label Content="Elija productos:" Height="28" HorizontalAlignment="Left" Margin="59,462,0,0" Name="label9" VerticalAlignment="Top" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="159,506,0,0" Name="cbProductoUno" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="339,506,0,0" Name="txbCantidadUno" VerticalAlignment="Top" Width="47" />
+        <Label Content="ctda." Height="28" HorizontalAlignment="Left" Margin="298,506,0,0" Name="label10" VerticalAlignment="Top" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="159,544,0,0" Name="cbProductoDos" VerticalAlignment="Top" Width="120" />
+        <Label Content="ctda." Height="28" HorizontalAlignment="Left" Margin="298,544,0,0" Name="label11" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="339,544,0,0" Name="txbCantidadDos" VerticalAlignment="Top" Width="47" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="159,584,0,0" Name="cbProductoTres" VerticalAlignment="Top" Width="120" />
+        <Label Content="ctda." Height="28" HorizontalAlignment="Left" Margin="298,584,0,0" Name="label12" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="339,584,0,0" Name="txbCantidadTres" VerticalAlignment="Top" Width="47" />
+        <Button Content="Guardar" Height="23" HorizontalAlignment="Left" Margin="174,658,0,0" Name="btnGuardar" VerticalAlignment="Top" Width="97" Click="btnGuardar_Click" />
+        <Button Content="Eliminar" Height="23" HorizontalAlignment="Left" Margin="48,658,0,0" Name="btnEliminar" VerticalAlignment="Top" Width="93" />
+        <Button Content="Vizualisar" Height="23" HorizontalAlignment="Right" Margin="0,658,37,0" Name="btnVizualisar" VerticalAlignment="Top" Width="87" />
+    </Grid>
+</Window>
