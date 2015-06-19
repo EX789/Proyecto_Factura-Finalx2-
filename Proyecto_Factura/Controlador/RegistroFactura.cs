@@ -23,13 +23,22 @@ namespace Controlador
 
         public Boolean eliminarFactura(int numeroFactura)
         {
+            //var consultaFactura =
+            //from numero in facturas
+            //where numero.numFactura == numeroFactura
+            //select numero;
+
+            //facturas.RemoveAll(x => x.numFactura == numeroFactura);
+            facturas = facturas.Where(x => x.numFactura == numeroFactura).ToList();
             foreach (var item in facturas)
             {
-                if (item.numFactura == numeroFactura)
-                {
-                    facturas.Remove(item);
-                    return true;
-                }
+                //if (item.numFactura == numeroFactura)
+                //{
+                //    facturas.Remove(item);
+                //    return true;
+                //}
+                facturas.Remove(item);
+                return true;
             }
             return false;
         }
@@ -37,15 +46,13 @@ namespace Controlador
         public string mostrarInfoCliente(int numFactura)
         {
             string salida = "";
+            facturas = facturas.Where(x => x.numFactura == numFactura).ToList();
             foreach (var item in facturas)
             {
-                if (item.numFactura == numFactura)
+                if (item.Persona is Cliente)
                 {
-                    if (item.Persona is Cliente)
-                    {
-                        Cliente cn = (Cliente)item.Persona;
-                        salida = cn.imprimir();
-                    } 
+                    Cliente cn = (Cliente)item.Persona;
+                    salida = cn.imprimir();
                 }
             }
             return salida;

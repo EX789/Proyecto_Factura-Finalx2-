@@ -2,3 +2,7 @@ C:\Users\Ivan\Documents\Visual Studio 2010\Projects\Proyecto_Factura\Modelo\bin\
 C:\Users\Ivan\Documents\Visual Studio 2010\Projects\Proyecto_Factura\Modelo\bin\Debug\Modelo.pdb
 C:\Users\Ivan\Documents\Visual Studio 2010\Projects\Proyecto_Factura\Modelo\obj\Debug\Modelo.dll
 C:\Users\Ivan\Documents\Visual Studio 2010\Projects\Proyecto_Factura\Modelo\obj\Debug\Modelo.pdb
+C:\Users\cetecom\Desktop\Proyecto\Repositoriowc\trunk\Proyecto_Factura\Modelo\bin\Debug\Modelo.dll
+C:\Users\cetecom\Desktop\Proyecto\Repositoriowc\trunk\Proyecto_Factura\Modelo\bin\Debug\Modelo.pdb
+C:\Users\cetecom\Desktop\Proyecto\Repositoriowc\trunk\Proyecto_Factura\Modelo\obj\Debug\Modelo.dll
+C:\Users\cetecom\Desktop\Proyecto\Repositoriowc\trunk\Proyecto_Factura\Modelo\obj\Debug\Modelo.pdb
