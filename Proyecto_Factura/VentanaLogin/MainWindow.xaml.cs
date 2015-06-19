@@ -45,7 +45,7 @@ namespace VentanaLogin
                 }
                 else
                 {
-                    MessageBox.Show("Nombre de usuario o contraseña mal escrita");
+                    MessageBox.Show("Nombre de usuario o contraseña mal escrita","Error",MessageBoxButton.OK,MessageBoxImage.Exclamation);
                 }
             }
         }

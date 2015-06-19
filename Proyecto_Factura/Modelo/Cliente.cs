@@ -7,6 +7,10 @@ namespace Modelo
 {
     public class Cliente:Persona //extiende de la clase persona
     {
+        public Cliente()
+        {
+            Movil = 0;
+        }
         //Rut del cliente
         private string strRut;
 
@@ -25,7 +29,7 @@ namespace Modelo
         }
         
         //Telefono movil del cliente
-        public int Movil { get; set; }
+        public int Movil { get; set;}
         //Direccion de cliente
         public string Direccion { get; set; }
         
@@ -45,7 +49,7 @@ namespace Modelo
                 "\nTelefono de contacto: "+
                 "\nFijo: "+Telefono+
                 "\nMovil: "+Movil+
-                "Direccion: "+Direccion+","+comuna;
+                "\nDireccion: "+Direccion+", "+comuna;
         }
     }
 }

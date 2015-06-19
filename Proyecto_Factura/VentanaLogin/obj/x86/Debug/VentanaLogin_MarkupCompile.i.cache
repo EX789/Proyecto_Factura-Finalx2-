@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\obj\x86\Debug\
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\Proyecto_Factura\VentanaLogin\obj\x86\Debug\
 VentanaLogin
 none
 false
 DEBUG;TRACE
-C:\Users\Ivan\Documents\Proyecto-Factura-Final\Repoitorio Facturawc\trunk\Proyecto_Factura\VentanaLogin\App.xaml
-2-581352494
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\Proyecto_Factura\VentanaLogin\App.xaml
+4-753812124
 
-7-964313683
-14-1542804912
-MainWindow.xaml;ventanGuardarProducto.xaml;
+9-578498808
+14-536463511
+MainWindow.xaml;ventanaEliminarFactura.xaml;ventanaVizualisacionFacturas.xaml;ventanGuardarProducto.xaml;
 
 False
 

@@ -1,0 +1,11 @@
+﻿<Window x:Class="VentanaLogin.ventanaVizualisacionFacturas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ventanaVizualisacionFacturas" Height="391" Width="411">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="173,40,0,0" Name="txbNumeroFactura" VerticalAlignment="Top" Width="90" />
+        <Label Content="N°.Factura" Height="28" HorizontalAlignment="Left" Margin="91,40,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBlock Height="135" HorizontalAlignment="Left" Margin="60,107,0,0" Name="txtblDatoCLiente" Text="" VerticalAlignment="Top" Width="272" />
+        <Button Content="Mostrar Informacion" Height="23" HorizontalAlignment="Left" Margin="123,78,0,0" Name="btnMInfo" VerticalAlignment="Top" Width="131" Click="btnMInfo_Click" />
+    </Grid>
+</Window>

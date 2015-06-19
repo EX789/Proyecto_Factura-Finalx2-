@@ -25,7 +25,7 @@ namespace Controlador
         {
             foreach (var item in facturas)
             {
-                if (item.numFactura==numeroFactura)
+                if (item.numFactura == numeroFactura)
                 {
                     facturas.Remove(item);
                     return true;
@@ -34,6 +34,21 @@ namespace Controlador
             return false;
         }
 
-        
+        public string mostrarInfoCliente(int numFactura)
+        {
+            string salida = "";
+            foreach (var item in facturas)
+            {
+                if (item.numFactura == numFactura)
+                {
+                    if (item.Persona is Cliente)
+                    {
+                        Cliente cn = (Cliente)item.Persona;
+                        salida = cn.imprimir();
+                    } 
+                }
+            }
+            return salida;
+        }
     }
 }
