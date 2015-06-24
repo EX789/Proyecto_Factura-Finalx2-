@@ -102,7 +102,7 @@ namespace VentanaLogin
 
         private void btnVizualisar_Click(object sender, RoutedEventArgs e)
         {
-            ventanaVizualisacionFacturas vnt = new ventanaVizualisacionFacturas(reg);
+            ventanaVizualisacionFacturas vnt = new ventanaVizualisacionFacturas(reg,txbNombreVendedor.Text);
             vnt.Show();
         }
     }

@@ -23,14 +23,14 @@ namespace Controlador
 
         public Boolean eliminarFactura(int numeroFactura)
         {
-            //var consultaFactura =
-            //from numero in facturas
-            //where numero.numFactura == numeroFactura
-            //select numero;
+            var consultaEliminarFactura =
+            from numero in facturas
+            where numero.numFactura == numeroFactura
+            select numero;
 
             //facturas.RemoveAll(x => x.numFactura == numeroFactura);
-            facturas = facturas.Where(x => x.numFactura == numeroFactura).ToList();
-            foreach (var item in facturas)
+            //facturas = facturas.Where(x => x.numFactura == numeroFactura).ToList();
+            foreach (var item in consultaEliminarFactura)
             {
                 //if (item.numFactura == numeroFactura)
                 //{
@@ -46,8 +46,11 @@ namespace Controlador
         public string mostrarInfoCliente(int numFactura)
         {
             string salida = "";
-            facturas = facturas.Where(x => x.numFactura == numFactura).ToList();
-            foreach (var item in facturas)
+            //facturas = facturas.Where(x => x.numFactura == numFactura).ToList();
+            var consultaMostarInfoCliente = from x in facturas
+                         where x.numFactura == numFactura
+                         select x;
+            foreach (var item in consultaMostarInfoCliente)
             {
                 if (item.Persona is Cliente)
                 {
@@ -56,6 +59,21 @@ namespace Controlador
                 }
             }
             return salida;
+        }
+
+        public List<Factura> buscarListaProducto(int numFactura)
+        {
+            List<Factura> listaProducto = null;
+            var consultaBuscarLista = from x in facturas
+                                      where x.numFactura == numFactura
+                                      select x;
+
+            listaProducto = consultaBuscarLista.ToList();
+            return listaProducto;
+            //foreach (var item in consultaBuscarLista)
+            //{
+                
+            //}
         }
     }
 }

@@ -19,15 +19,18 @@ namespace VentanaLogin
     public partial class ventanaVizualisacionFacturas : Window
     {
         RegistroFactura rgf;
-        public ventanaVizualisacionFacturas(RegistroFactura rg)
+        string strNomVen;
+        public ventanaVizualisacionFacturas(RegistroFactura rg, string nombreVen)
         {
             InitializeComponent();
             rgf = rg;
+            strNomVen = nombreVen;
         }
 
         private void btnMInfo_Click(object sender, RoutedEventArgs e)
         {
-            txtblDatoCLiente.Text = rgf.mostrarInfoCliente(int.Parse(txbNumeroFactura.Text));
+            txtblDatoCLiente.Text = rgf.mostrarInfoCliente(int.Parse(txbNumeroFactura.Text))+"      \nVendedor: "+strNomVen;
+            //dgMostrarProducto.ItemsSource;
         }
     }
 }
